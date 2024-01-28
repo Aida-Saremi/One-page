@@ -1,0 +1,92 @@
+@font-face {
+  font-family:'BKoodak';
+  src: url(../fonts/BKoodak.woff);
+}
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+    font-family: 'BKoodak';
+    background-image: url("../img/bg.jpg");
+    background-size: cover; /* Cover the entire page */
+    text-align: right;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+  ul {
+    background: #FFF;
+    float: right;
+    width: 100%;
+  }
+  
+  ul li {
+    display: inline-block;
+    position: relative; /*mage relative tanha darim in be koja marbote daghighan*/
+    
+  }
+  
+  ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right; /* chera amal nakard ta vaghti ke body ro barash text align gozahtam */
+    
+  }
+  ul li a:hover {
+    background: #c4f9f4;
+  }
+  
+  .dropdown {
+    background: #f5fafa;
+    position: absolute;
+    display: none;
+    
+  }
+  
+  .dropdown li {
+    display: block;
+  }
+
+  .dropdown-content:hover .dropdown {
+    display: block;
+    z-index: 100;
+   
+  }
+
+ .Brand {
+    font-size: x-large;
+  } 
+ 
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #423e3e; /* chera background color baraye footer amal nakard ba tag footer */
+  }
+
+
+  footer ul {
+    background-color: #423e3e; /* Set the background color for the footer */
+  }
+
+  .footer-content a{
+    color: #ffffff; /* Set the background color for the footer */
+  }
+
+  .post{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    right: auto;
+    left: 300px;
+    padding: 20px;
+    background-color: #ffffff; /* Set the background color for the footer */
+  }
