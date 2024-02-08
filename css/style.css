@@ -3,7 +3,6 @@
   src: url(../fonts/BKoodak.woff);
 }
   body {
-    height: 100%;
     margin: 0;
     overflow: hidden; /* Prevent scrolling */
     font-family: 'BKoodak';
@@ -34,13 +33,16 @@
     padding: 20px 25px;
     text-decoration: none;
     font-size: 20px;
-    text-align: right; /* chera amal nakard ta vaghti ke body ro barash text align gozahtam */
+    
     
   }
   ul li a:hover {
     background: #c4f9f4;
   }
-  
+  .navbar a
+  {
+    color : #000
+  }
   .dropdown {
     background: #f5fafa;
     position: absolute;
@@ -71,7 +73,7 @@
   }
 
 
-  footer ul {
+  .footer-content{
     background-color: #423e3e; /* Set the background color for the footer */
   }
 
@@ -80,12 +82,11 @@
   }
 
   .post{
-    width: 60%;
-    height: auto;
     position: absolute;
     top: 120px;
-    right: auto;
-    left: 300px;
+    width: 60%;
+    height: auto;
+    left: 20%;
     padding: 20px;
     background-color: #ffffff; /* Set the background color for the footer */
   }
